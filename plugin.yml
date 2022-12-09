@@ -1,0 +1,22 @@
+name: Multiv
+author: Jona
+version: 1.0
+api-version: 1.15
+main: multiv.Multiv
+commands:
+   teleport:
+      usage: /teleport
+      permission: Multiv.teleport
+      permission-message: You don't have the right
+   create:
+      usage: /create
+      permission: Multiv.create
+      permission-message: You cant!
+   register:
+      usage: /register password
+      permission: Multiv.register
+      permission-message: You cant!
+   allow:
+      usage: /allow world
+      permission: Multiv.allow
+      permission-message: You cant!
